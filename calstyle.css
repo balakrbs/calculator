@@ -1,0 +1,26 @@
+#calculator {
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(231, 231, 231);
+    margin-top: -20px;
+}
+
+#display {
+    height: 60px;
+    font-size: 2rem;
+    text-align: right;
+    color: rgb(95, 95, 95);
+    background-color: rgb(175, 175, 175);
+}
+
+button {
+    width: 25%;
+    height: 60px;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 576px) {
+    button {
+        width: 50%;
+    }
+}
